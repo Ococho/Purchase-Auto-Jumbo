@@ -17,7 +17,6 @@ public class Configuration {
     @Managed()
     protected WebDriver webDriver;
 
-
     protected void setupBrowser() {
         configureDriver();
         OnStage.setTheStage(new OnlineCast());
