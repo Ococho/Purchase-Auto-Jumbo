@@ -14,4 +14,8 @@ public class OpenHomePage implements Task {
                 Open.browserOn(homePage)
         );
     }
+
+    public static OpenHomePage openHomePage() {
+        return new OpenHomePage();
+    }
 }
